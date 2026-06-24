@@ -39,6 +39,8 @@ Track your journey through the Backend Developer Roadmap.
 
 *Goal: Deep fluency in one backend language. Syntax is easy; thinking in the language is not.*
 
+*Supported languages: Python, Go, Rust, Java/Kotlin, C#/.NET, Node.js/TypeScript. Pick one. See [FAQ.md](FAQ.md) and [RESOURCES.md](RESOURCES.md) for language-specific resources.*
+
 ### Language Basics (weeks 1–2)
 - [ ] Variables, types, control flow, functions, closures
 - [ ] Memory model for your language (stack vs heap, GC vs ownership)

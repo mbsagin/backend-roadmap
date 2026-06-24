@@ -51,6 +51,16 @@ Choose resources for the language you've selected.
 - *Effective Java, 3rd ed.* — Joshua Bloch `[Paid]` — Essential for Java engineers
 - *Kotlin in Action, 2nd ed.* `[Paid]`
 
+**C# / .NET**
+- [Tour of C#](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/) `[Free]` — Official interactive overview. Start here.
+- [C# Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/) `[Free]` — Full language reference: syntax, features, runtime behavior
+- [.NET Documentation](https://learn.microsoft.com/en-us/dotnet/) `[Free]` — Platform-level docs covering the runtime, CLI, and standard libraries
+- [ASP.NET Core Documentation](https://learn.microsoft.com/en-us/aspnet/core/) `[Free]` — The primary web framework for backend .NET development
+- [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core/) `[Free]` — The standard ORM for .NET; requires solid SQL fundamentals before using
+- [.NET YouTube Channel](https://www.youtube.com/@dotnet) `[Free]` — Official channel with tutorials, release deep dives, and .NET Conf talks
+- *C# in Depth, 4th ed.* — Jon Skeet `[Paid]` — The most thorough book on C#. Goes beyond syntax into how the language actually works.
+- *Effective C#, 3rd ed.* — Bill Wagner `[Paid]` — 50 specific ways to improve C# code. Practical and concise.
+
 **Algorithms (language-agnostic)**
 - [The Algorithm Design Manual](https://www.algorist.com/) — Skiena `[Paid]` — Best book for building intuition
 - [LeetCode](https://leetcode.com/) `[Free/Paid]` — Practice problems. Focus on Easy/Medium. Don't grind before you have fundamentals.
@@ -271,6 +281,8 @@ These are the communities worth spending time in. Low noise, high signal.
 - [r/rust](https://www.reddit.com/r/rust/) — Rust-specific, very active
 - [r/java](https://www.reddit.com/r/java/)
 - [r/Python](https://www.reddit.com/r/Python/)
+- [r/csharp](https://www.reddit.com/r/csharp/) — C# language and ecosystem
+- [r/dotnet](https://www.reddit.com/r/dotnet/) — .NET platform, ASP.NET Core, tooling
 - [r/ExperiencedDevs](https://www.reddit.com/r/ExperiencedDevs/) — Discussions from working engineers
 - [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions/) — Job market, interviews, career navigation
 

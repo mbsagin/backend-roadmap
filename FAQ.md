@@ -186,4 +186,4 @@ The roadmap is completable working full-time. It just takes longer. Plan accordi
 
 ---
 
-*See also: [PROGRESS.md](PROGRESS.md) for the phase-by-phase tracker, [RESOURCES.md](RESOURCES.md) for learning materials.*
+*See also: [PROGRESS.md](PROGRESS.md) for the section-by-section tracker, [RESOURCES.md](RESOURCES.md) for learning materials.*
