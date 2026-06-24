@@ -50,7 +50,7 @@ Why? Learning the material is months. *Becoming* mid-level is years of debugging
 
 ## Getting Started
 
-1. Open `roadmap.html` in your browser
+1. **[Open the Interactive Roadmap](https://mbsagin.github.io/backend-roadmap/index.html)** or clone and open `index.html` locally in your browser.
 2. Start with **Phase 1: Networking** (1–2 weeks)
 3. Work through each phase sequentially
 4. Build projects combining multiple phases
@@ -67,7 +67,7 @@ This roadmap assumes:
 
 ## Contents
 
-- **roadmap.html** — Interactive roadmap with diagrams, code examples, project ideas for each phase
+- **index.html** — Interactive roadmap with diagrams, code examples, project ideas for each phase
 - **README.md** — This file
 - **LICENSE** — MIT
 
