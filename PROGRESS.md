@@ -96,7 +96,7 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 ### Hands-on
 - [ ] Write a script that monitors a process and restarts it on crash
 - [ ] Use `strace` to inspect system calls of a running program
-- [ ] Implement graceful shutdown in your Phase 2 project (handle SIGTERM)
+- [ ] Implement graceful shutdown in your language fundamentals project (handle SIGTERM)
 
 ---
 
@@ -215,7 +215,7 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 - [ ] Strategy pattern: swap behavior at runtime
 
 ### Practical Application
-- [ ] Refactor Phase 2 project to use layered architecture
+- [ ] Refactor your data structures project to use layered architecture
 - [ ] Wire up DI manually (no framework yet) — understand what a container does before you use one
 - [ ] Write a service that has zero knowledge of HTTP (pure business logic)
 - [ ] Write tests for the service layer without a running database
@@ -304,7 +304,7 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 - [ ] RED method: Rate, Errors, Duration
 - [ ] USE method: Utilization, Saturation, Errors
 - [ ] Prometheus metrics types: Counter, Gauge, Histogram, Summary
-- [ ] Instrument your Phase 8 API with request latency and error rate metrics
+- [ ] Instrument your REST API with request latency and error rate metrics
 - [ ] Grafana dashboard basics (conceptual)
 
 ### Distributed Tracing
@@ -346,7 +346,7 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 - [ ] Understand why E2E tests are slow and flaky — and accept that trade-off selectively
 
 ### Build
-- [ ] Add a full test suite to your Phase 8 API project
+- [ ] Add a full test suite to your REST API project
 - [ ] Achieve 70%+ coverage on service layer
 - [ ] Write at least one regression test for a bug you've already fixed
 
@@ -373,7 +373,7 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 - [ ] Deployment strategies: blue-green, canary, rolling update — understand each
 
 ### Build
-- [ ] Containerize your Phase 8 API project
+- [ ] Containerize your REST API project
 - [ ] Write a Docker Compose file with app + PostgreSQL + Redis
 - [ ] Set up GitHub Actions: run tests on every pull request
 - [ ] Add a deployment step (even to a free-tier service: Railway, Fly.io, Render)
@@ -447,7 +447,7 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 - [ ] Managed queues: SQS, Cloud Pub/Sub
 
 ### Build
-- [ ] Deploy your Phase 12 containerized API to a real cloud provider (AWS, GCP, or Azure)
+- [ ] Deploy your containerized API to a real cloud provider (AWS, GCP, or Azure)
 - [ ] Set up a managed database and connect your application
 - [ ] Configure environment-specific settings without hardcoding
 
@@ -510,7 +510,7 @@ Pick one track. The others can be explored later.
 | 15 | Specialization | 4–6 weeks |
 | **Total** | | **55–74 weeks** |
 
-*Overlap is possible (Phase 6 alongside Phase 5; Phase 14 alongside Phase 13). Realistic total: **12–18 months** at consistent 2–4 hours/day.*
+*Overlap is possible (Git & Tooling alongside Databases; Cloud alongside Scalability). Realistic total: **12–18 months** at consistent 2–4 hours/day.*
 
 ---
 
@@ -527,8 +527,8 @@ Pick one track. The others can be explored later.
 **What doesn't work:**
 
 - Collecting tutorials without building. Tutorial completion is a false signal of progress.
-- Restarting the roadmap. If you're on Phase 7, don't restart because you forgot Phase 3. Go back to Phase 3, fill the gap, continue.
-- Comparing pace. Some engineers move through Phase 2 in 6 weeks. Others take 14. Both can be right if the depth is there.
+- Restarting the roadmap. If you're on Architecture and realize your OS knowledge is shaky, go back and fill the gap — don't restart from the beginning.
+- Comparing pace. Some engineers move through Programming Fundamentals in 6 weeks. Others take 14. Both can be right if the depth is there.
 - Waiting until you feel "ready" to start applying. You won't feel ready. Start applying at 12 months regardless.
 
 ---

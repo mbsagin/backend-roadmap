@@ -69,7 +69,7 @@ Choose resources for the language you've selected.
 - *The Linux Programming Interface* — Michael Kerrisk `[Paid]` — Definitive Linux system programming reference. Reference book, not a cover-to-cover read.
 
 **Video**
-- [MIT 6.004 Computation Structures](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/) `[Free]` — MIT OpenCourseWare. Deeper than what Phase 3 requires, but useful for STEM graduates who want the full picture.
+- [MIT 6.004 Computation Structures](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/) `[Free]` — MIT OpenCourseWare. Deeper than this section requires, but useful for STEM graduates who want the full picture.
 
 ---
 
@@ -85,7 +85,7 @@ Choose resources for the language you've selected.
 
 **Video**
 - Rob Pike — [Concurrency Is Not Parallelism](https://www.youtube.com/watch?v=oV9rvDllKEg) `[Free]` — 30-minute talk. Clear and essential.
-- [Hussein Nasser — Node.js Event Loop](https://www.youtube.com/watch?v=8aGhZQkoFbQ) `[Free]` — Even if you're not using Node, the event loop explanation is excellent
+- Philip Roberts — [What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ) `[Free]` — The classic JSConf talk on async I/O and the event loop. Language-agnostic insight regardless of your stack.
 
 ---
 
@@ -111,7 +111,7 @@ Choose resources for the language you've selected.
 **Documentation**
 - [Pro Git Book](https://git-scm.com/book/en/v2) `[Free]` — Official, comprehensive, well-written. Chapters 1–5 cover everything in this phase.
 - [Conventional Commits](https://www.conventionalcommits.org/) `[Free]` — Standard for writing structured commit messages
-- [GitHub Actions Documentation](https://docs.github.com/en/actions) `[Free]` — Relevant in Phase 12, but useful to skim now
+- [GitHub Actions Documentation](https://docs.github.com/en/actions) `[Free]` — Relevant during Docker & CI/CD, but useful to skim now
 
 **Interactive**
 - [Learn Git Branching](https://learngitbranching.js.org/) `[Free]` — Visual, interactive. Best way to learn branching and rebasing.
@@ -169,8 +169,8 @@ Choose resources for the language you've selected.
 **Books**
 - *Observability Engineering* — Majors, Fong-Jones, Miranda `[Paid]` — Modern approach to observability beyond metrics and logs
 
-**Video**
-- [Google SRE Book](https://sre.google/sre-book/table-of-contents/) `[Free]` — Not video, but: Chapters 6 (monitoring), 10 (practical alerting), 11 (being on-call) are directly relevant here.
+**Reading**
+- [Google SRE Book](https://sre.google/sre-book/table-of-contents/) `[Free]` — Chapters 6 (monitoring), 10 (practical alerting), and 11 (being on-call) are directly relevant here. Free online.
 
 ---
 
@@ -216,7 +216,7 @@ Choose resources for the language you've selected.
 **Video**
 - [System Design Primer](https://github.com/donnemartin/system-design-primer) `[Free]` — GitHub repo. One of the most starred repos on GitHub. Comprehensive and well-organized.
 - [Hussein Nasser — Distributed Systems playlist](https://www.youtube.com/@hnasr) `[Free]`
-- MIT 6.824 Distributed Systems — [Lectures on YouTube](https://www.youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB) `[Free]` — Graduate-level. Raft, MapReduce, Spanner. Worth watching after completing Phase 13 basics.
+- MIT 6.824 Distributed Systems — [Lectures on YouTube](https://www.youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB) `[Free]` — Graduate-level. Raft, MapReduce, Spanner. Worth watching after you have the Scalability basics solid.
 
 ---
 

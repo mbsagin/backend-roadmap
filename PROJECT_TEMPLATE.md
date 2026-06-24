@@ -83,7 +83,7 @@ What interesting technical decisions did it force you to make?]
 
 ## Example: E-commerce Data Layer
 
-This is the Phase 5 project from the roadmap. Completed example using the template above.
+This is the Databases project from the roadmap. Completed example using the template above.
 
 ---
 
@@ -223,7 +223,7 @@ Expose the following as SQL functions or application-layer transactions:
 
 ## Estimated Time
 
-6–8 weeks (concurrent with Phase 5 study)
+6–8 weeks (concurrent with the Databases section)
 
 ## Portfolio / Interview Value
 

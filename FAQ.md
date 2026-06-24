@@ -27,16 +27,16 @@ Some phases have hard dependencies. Others are softer.
 
 **Hard dependencies (don't skip):**
 
-- Phase 1 (Networking) → required before Phase 8 (API Design), Phase 10 (Observability), Phase 13 (Scalability)
-- Phase 2 (Programming Fundamentals) → required for everything
-- Phase 5 (Databases) → required before Phase 7 (Architecture), Phase 13 (Scalability)
-- Phase 9 (Security) → required before Phase 8 if building production APIs
+- Networking → required before API Design, Observability, and Scalability
+- Programming Fundamentals → required for everything
+- Databases → required before Architecture and Scalability
+- Security → complete before building production APIs (even if you cover it after API Design conceptually, implement it before shipping anything real)
 
 **Safe to reorder or compress if you have prior experience:**
 
-- Phase 3 (OS Basics) — if you've used Linux professionally, skim
-- Phase 6 (Git & Tooling) — if you already use Git daily in a real workflow, move fast
-- Phase 14 (Cloud) — can be done in parallel with Phase 12 or 13
+- OS Basics — if you've used Linux professionally, skim
+- Git & Tooling — if you already use Git daily in a real workflow, move fast
+- Cloud — can be done in parallel with Docker & CI/CD or Scalability
 
 **Rule of thumb:** If you don't understand *why* a phase exists, don't skip it. The phases aren't arbitrary. Each one explains something the next one assumes you know.
 
@@ -44,7 +44,7 @@ Some phases have hard dependencies. Others are softer.
 
 ## What if I'm struggling with a phase?
 
-Slow down. The roadmap timeline is a median, not a minimum.
+Slow down. The roadmap timeline is a guide, not a deadline.
 
 Specific strategies:
 
@@ -90,7 +90,7 @@ Specialization (Phase 15) builds on Phases 1–14. A fintech engineer who doesn'
 
 The right time to specialize is when you have a job offer in a specific domain, or when you're applying to roles in a domain you've already chosen.
 
-**Exception:** If you already have work experience in a specific domain (e-commerce, ML infrastructure, gaming), use that context to make earlier phases concrete. Build your Phase 5 database project in the domain you know. Specialization as *context* is fine. Specialization as *shortcut* is not.
+**Exception:** If you already have work experience in a specific domain (e-commerce, ML infrastructure, gaming), use that context to make earlier phases concrete. Build your database project in the domain you know. Specialization as *context* is fine. Specialization as *shortcut* is not.
 
 ---
 
@@ -117,7 +117,9 @@ Calibrate, don't assume. Work experience in a domain doesn't guarantee depth in 
 | 13 — Scalability | Explain consistent hashing, cache invalidation strategies, event-driven architecture |
 | 14 — Cloud | Deploy a containerized service to a managed cloud platform from scratch |
 
-If you can't do the thing without looking it up, don't skip the phase. Familiarity and competence are different.
+Specialization is intentionally not in this table — you can't skip it because the whole point is choosing a track once you've completed everything else. There's nothing to skip; it's where you go deep.
+
+If you can't do the thing without looking it up, don't skip the section. Familiarity and competence are different.
 
 ---
 
