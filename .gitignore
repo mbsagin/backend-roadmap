@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vim
+
+# Node (if used for any scripts)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python (if used for any scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Misc
+.env
+.env.local
+*.tmp
