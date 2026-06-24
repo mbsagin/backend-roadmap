@@ -38,6 +38,8 @@
         .resource-card h4 { color: #1a202c; margin-bottom: 10px; font-weight: 600; }
         .resource-card ul { list-style-position: inside; color: #4a5568; font-size: 0.95em; }
         .resource-card li { margin-bottom: 5px; }
+        .resource-card a { color: #3182ce; text-decoration: none; }
+        .resource-card a:hover { text-decoration: underline; }
         .critical { border-left: 5px solid #c53030; }
         .critical .section-num { background: #c53030; }
         table { width: 100%; border-collapse: collapse; margin: 20px 0; background: white; }
@@ -543,56 +545,87 @@ DELETE /api/users/:id          delete</div>
                 <div class="resource-card">
                     <h4>Networking</h4>
                     <ul>
-                        <li>MDN Web Docs</li>
-                        <li>Hussein Nasser (YouTube)</li>
-                        <li>Computer Networking: A Top-Down Approach</li>
-                        <li>RFC 7231 (HTTP/1.1 spec)</li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP" target="_blank">MDN Web Docs — HTTP</a></li>
+                        <li><a href="https://www.youtube.com/@hnasr" target="_blank">Hussein Nasser (YouTube)</a></li>
+                        <li><a href="https://hpbn.co/" target="_blank">High-Performance Browser Networking</a></li>
+                        <li><a href="https://datatracker.ietf.org/doc/html/rfc7231" target="_blank">RFC 7231 — HTTP/1.1 spec</a></li>
+                        <li><a href="https://www.cloudflare.com/learning/" target="_blank">Cloudflare Learning Center</a></li>
                     </ul>
                 </div>
                 <div class="resource-card">
                     <h4>Programming Languages</h4>
                     <ul>
-                        <li>Real Python (Python)</li>
-                        <li>The Odin Project (JavaScript)</li>
-                        <li>Rust Book (Rust)</li>
-                        <li>Tour of Go (Go)</li>
-                        <li>Oracle Java Docs (Java)</li>
+                        <li><a href="https://docs.python.org/3/" target="_blank">Python Official Docs</a></li>
+                        <li><a href="https://doc.rust-lang.org/book/" target="_blank">The Rust Book</a></li>
+                        <li><a href="https://go.dev/tour/" target="_blank">A Tour of Go</a></li>
+                        <li><a href="https://docs.oracle.com/javase/tutorial/" target="_blank">Oracle Java Tutorials</a></li>
+                        <li><a href="https://kotlinlang.org/docs/home.html" target="_blank">Kotlin Docs</a></li>
+                        <li><a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">C# Documentation (.NET)</a></li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <h4>C# / .NET</h4>
+                    <ul>
+                        <li><a href="https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/" target="_blank">Tour of C#</a></li>
+                        <li><a href="https://learn.microsoft.com/en-us/dotnet/" target="_blank">.NET Documentation</a></li>
+                        <li><a href="https://learn.microsoft.com/en-us/aspnet/core/" target="_blank">ASP.NET Core Docs</a></li>
+                        <li><a href="https://learn.microsoft.com/en-us/ef/core/" target="_blank">Entity Framework Core</a></li>
+                        <li><a href="https://www.youtube.com/@dotnet" target="_blank">.NET YouTube Channel</a></li>
+                        <li>C# in Depth — Jon Skeet (book)</li>
                     </ul>
                 </div>
                 <div class="resource-card">
                     <h4>Databases</h4>
                     <ul>
-                        <li>PostgreSQL Documentation</li>
-                        <li>MySQL Documentation</li>
-                        <li>Designing Data-Intensive Applications (book)</li>
-                        <li>Use The Index, Luke! (query optimization)</li>
+                        <li><a href="https://www.postgresql.org/docs/current/" target="_blank">PostgreSQL Documentation</a></li>
+                        <li><a href="https://use-the-index-luke.com/" target="_blank">Use The Index, Luke!</a></li>
+                        <li><a href="https://dataintensive.net/" target="_blank">Designing Data-Intensive Applications</a></li>
+                        <li><a href="https://www.youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi" target="_blank">CMU Database Systems (YouTube)</a></li>
                     </ul>
                 </div>
                 <div class="resource-card">
-                    <h4>System Design</h4>
+                    <h4>System Design &amp; Scalability</h4>
                     <ul>
-                        <li>System Design Primer (GitHub)</li>
-                        <li>Designing Data-Intensive Applications</li>
-                        <li>High-Performance Browser Networking</li>
-                        <li>Site Reliability Engineering (Google)</li>
+                        <li><a href="https://github.com/donnemartin/system-design-primer" target="_blank">System Design Primer</a></li>
+                        <li><a href="https://dataintensive.net/" target="_blank">Designing Data-Intensive Applications</a></li>
+                        <li><a href="https://sre.google/sre-book/table-of-contents/" target="_blank">Google SRE Book</a></li>
                     </ul>
                 </div>
                 <div class="resource-card">
-                    <h4>Testing & Quality</h4>
+                    <h4>Security</h4>
                     <ul>
-                        <li>Testing Library (React Testing)</li>
-                        <li>pytest Documentation</li>
-                        <li>Jest Documentation</li>
-                        <li>Pragmatic Unit Testing (book)</li>
+                        <li><a href="https://owasp.org/www-project-top-ten/" target="_blank">OWASP Top 10</a></li>
+                        <li><a href="https://portswigger.net/web-security" target="_blank">PortSwigger Web Security Academy</a></li>
+                        <li><a href="https://owasp.org/www-project-web-security-testing-guide/" target="_blank">OWASP Testing Guide</a></li>
                     </ul>
                 </div>
                 <div class="resource-card">
-                    <h4>DevOps & Infrastructure</h4>
+                    <h4>API Design</h4>
                     <ul>
-                        <li>Docker Official Docs</li>
-                        <li>Kubernetes Documentation</li>
-                        <li>GitHub Actions Docs</li>
-                        <li>AWS/GCP/Azure Documentation</li>
+                        <li><a href="https://swagger.io/specification/" target="_blank">OpenAPI Specification</a></li>
+                        <li><a href="https://cloud.google.com/apis/design" target="_blank">Google API Design Guide</a></li>
+                        <li><a href="https://grpc.io/docs/" target="_blank">gRPC Documentation</a></li>
+                        <li><a href="https://protobuf.dev/programming-guides/proto3/" target="_blank">Protocol Buffers Guide</a></li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <h4>Testing</h4>
+                    <ul>
+                        <li><a href="https://docs.pytest.org/" target="_blank">pytest Documentation</a></li>
+                        <li><a href="https://jestjs.io/docs/getting-started" target="_blank">Jest Documentation</a></li>
+                        <li><a href="https://junit.org/junit5/docs/current/user-guide/" target="_blank">JUnit 5 User Guide</a></li>
+                        <li><a href="https://martinfowler.com/testing/" target="_blank">Martin Fowler — Testing</a></li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <h4>DevOps &amp; Infrastructure</h4>
+                    <ul>
+                        <li><a href="https://docs.docker.com/" target="_blank">Docker Documentation</a></li>
+                        <li><a href="https://kubernetes.io/docs/home/" target="_blank">Kubernetes Documentation</a></li>
+                        <li><a href="https://docs.github.com/en/actions" target="_blank">GitHub Actions Docs</a></li>
+                        <li><a href="https://docs.aws.amazon.com/" target="_blank">AWS Documentation</a></li>
+                        <li><a href="https://cloud.google.com/docs" target="_blank">Google Cloud Docs</a></li>
+                        <li><a href="https://docs.microsoft.com/en-us/azure/" target="_blank">Azure Documentation</a></li>
                     </ul>
                 </div>
             </div>        </div>
