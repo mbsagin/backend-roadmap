@@ -1,19 +1,19 @@
 # Learning Progress Tracker
 
-Track your journey through the 15-phase Backend Developer Roadmap.
+Track your journey through the Backend Developer Roadmap.
 
 **How to use this file:**
 
 1. Fork the [backend-roadmap](https://github.com/mbsagin/backend-roadmap) repository to your own GitHub account
 2. Copy this file to your fork (or keep a local copy)
 3. Check off items as you complete them — commit your progress regularly
-4. Use this alongside the [interactive roadmap](https://mbsagin.github.io/backend-roadmap/) which shows the content for each phase
+4. Use this alongside the [interactive roadmap](https://mbsagin.github.io/backend-roadmap/) which shows the content for each section
 
 **Total estimated time:** 700–900 hours | 12–18 months at consistent effort
 
 ---
 
-## Phase 1 — Networking (1–2 weeks)
+## Networking (1–2 weeks)
 
 *Goal: Understand how computers communicate before you build systems on top of networks.*
 
@@ -35,7 +35,7 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 
 ---
 
-## Phase 2 — Programming Fundamentals (8–10 weeks)
+## Programming Fundamentals (8–10 weeks)
 
 *Goal: Deep fluency in one backend language. Syntax is easy; thinking in the language is not.*
 
@@ -71,7 +71,7 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 
 ---
 
-## Phase 3 — Operating Systems (2–3 weeks)
+## Operating Systems (2–3 weeks)
 
 *Goal: Understand the environment your backend runs in. Limited resources are not abstractions.*
 
@@ -100,7 +100,7 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 
 ---
 
-## Phase 4 — Concurrency & Async Programming (2–3 weeks)
+## Concurrency & Async Programming (2–3 weeks)
 
 *Goal: Modern backends serve thousands of requests simultaneously. Understand how, and where it goes wrong.*
 
@@ -123,7 +123,7 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 
 ---
 
-## Phase 5 — Relational Databases & SQL (6–8 weeks)
+## Relational Databases & SQL (6–8 weeks)
 
 *Goal: Schema design and query optimization are engineering skills, not DBA skills. Every backend engineer needs them.*
 
@@ -164,7 +164,7 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 
 ---
 
-## Phase 6 — Git & Professional Tooling (2–3 weeks)
+## Git & Professional Tooling (2–3 weeks)
 
 *Goal: These tools are table stakes. Every professional backend team uses them. Incompetence here signals inexperience immediately.*
 
@@ -196,7 +196,7 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 
 ---
 
-## Phase 7 — Backend Architecture Fundamentals (3–4 weeks)
+## Backend Architecture Fundamentals (3–4 weeks)
 
 *Goal: Organize code so it's maintainable and testable. The wrong architecture is debt that compounds.*
 
@@ -222,7 +222,7 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 
 ---
 
-## Phase 8 — API Design: REST & gRPC (4–5 weeks)
+## API Design: REST & gRPC (4–5 weeks)
 
 *Goal: APIs are contracts between systems. Poor contracts cause bugs forever. Good contracts prevent entire categories of bugs.*
 
@@ -250,14 +250,14 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 - [ ] Write a simple gRPC server and client
 
 ### Build Project
-- [ ] Build a versioned REST API for the e-commerce schema from Phase 5
+- [ ] Build a versioned REST API for the e-commerce schema from the Databases section
 - [ ] Include: auth endpoints, product CRUD, order flow, proper error handling
 - [ ] Write an OpenAPI spec for it
 - [ ] Test all endpoints with a client (curl, HTTPie, Postman, or a test suite)
 
 ---
 
-## Phase 9 — Security Fundamentals (3–4 weeks)
+## Security Fundamentals (3–4 weeks)
 
 *Goal: Security bugs are often irreversible — leaked credentials, exposed data, compromised users. Build the right habits now.*
 
@@ -289,7 +289,7 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 
 ---
 
-## Phase 10 — Observability (3–4 weeks)
+## Observability (3–4 weeks)
 
 *Goal: You cannot fix what you cannot see. This is not about dashboards — it's about being able to answer "why is this broken?" in production.*
 
@@ -320,7 +320,7 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 
 ---
 
-## Phase 11 — Testing Strategy (4–5 weeks)
+## Testing Strategy (4–5 weeks)
 
 *Goal: Untested code is broken code. The testing pyramid is a load-bearing structure, not a suggestion.*
 
@@ -352,7 +352,7 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 
 ---
 
-## Phase 12 — Docker & CI/CD (4–5 weeks)
+## Docker & CI/CD (4–5 weeks)
 
 *Goal: Code that doesn't run in production reliably is not production code.*
 
@@ -380,7 +380,7 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 
 ---
 
-## Phase 13 — Scalability & Distributed Systems (6–8 weeks)
+## Scalability & Distributed Systems (6–8 weeks)
 
 *Goal: Your app works with 10 users. What about 10 million? This is where backend engineering gets hard.*
 
@@ -420,7 +420,7 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 
 ---
 
-## Phase 14 — Cloud Fundamentals (3–4 weeks)
+## Cloud Fundamentals (3–4 weeks)
 
 *Goal: Most backends run on AWS, GCP, or Azure. Understand the building blocks before you use managed services.*
 
@@ -453,7 +453,7 @@ Track your journey through the 15-phase Backend Developer Roadmap.
 
 ---
 
-## Phase 15 — Specialization (4–6 weeks)
+## Specialization (4–6 weeks)
 
 *Goal: Go deep in one domain. Breadth got you hired. Depth makes you valuable.*
 
@@ -489,26 +489,26 @@ Pick one track. The others can be explored later.
 
 ---
 
-## Time Estimates Summary
+## Time Estimates
 
-| Phase | Topic | Estimated Time |
-|---|---|---|
-| 1 | Networking | 1–2 weeks |
-| 2 | Programming Fundamentals | 8–10 weeks |
-| 3 | Operating Systems | 2–3 weeks |
-| 4 | Concurrency & Async | 2–3 weeks |
-| 5 | Relational Databases | 6–8 weeks |
-| 6 | Git & Tooling | 2–3 weeks |
-| 7 | Backend Architecture | 3–4 weeks |
-| 8 | API Design | 4–5 weeks |
-| 9 | Security | 3–4 weeks |
-| 10 | Observability | 3–4 weeks |
-| 11 | Testing | 4–5 weeks |
-| 12 | Docker & CI/CD | 4–5 weeks |
-| 13 | Scalability & Distributed Systems | 6–8 weeks |
-| 14 | Cloud Fundamentals | 3–4 weeks |
-| 15 | Specialization | 4–6 weeks |
-| **Total** | | **55–74 weeks** |
+| Section | Estimated Time |
+|---|---|
+| Networking | 1–2 weeks |
+| Programming Fundamentals | 8–10 weeks |
+| Operating Systems | 2–3 weeks |
+| Concurrency & Async | 2–3 weeks |
+| Relational Databases | 6–8 weeks |
+| Git & Tooling | 2–3 weeks |
+| Backend Architecture | 3–4 weeks |
+| API Design | 4–5 weeks |
+| Security | 3–4 weeks |
+| Observability | 3–4 weeks |
+| Testing | 4–5 weeks |
+| Docker & CI/CD | 4–5 weeks |
+| Scalability & Distributed Systems | 6–8 weeks |
+| Cloud Fundamentals | 3–4 weeks |
+| Specialization | 4–6 weeks |
+| **Total** | **55–74 weeks** |
 
 *Overlap is possible (Git & Tooling alongside Databases; Cloud alongside Scalability). Realistic total: **12–18 months** at consistent 2–4 hours/day.*
 
@@ -520,7 +520,7 @@ Pick one track. The others can be explored later.
 
 - Commit your progress to GitHub. Public accountability is real.
 - Build things that actually interest you. The e-commerce schema is more memorable if you care about the domain.
-- Pair a concept with a project. Every phase has a concrete deliverable. Don't skip them.
+- Pair a concept with a project. Every section has a concrete deliverable. Don't skip them.
 - Track what you've shipped, not what you've read. Reading is cheap. Building is not.
 - Connect with others. Find one or two engineers at the same stage. Share code, share struggles.
 

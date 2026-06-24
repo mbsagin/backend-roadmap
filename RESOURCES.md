@@ -1,6 +1,6 @@
 # Learning Resources
 
-Curated resources for each phase. Organized by type: Documentation, Books, Video, Courses, and Communities.
+Curated resources organized by topic. Documentation, Books, Video, Courses, and Communities.
 
 **Curation criteria:** Primary sources and high-signal content only. No paid bootcamp promotions. Free resources are marked `[Free]`. Paid resources are marked `[Paid]`.
 
@@ -8,7 +8,7 @@ The standard recommendation: read primary documentation first. Official docs are
 
 ---
 
-## Phase 1 — Networking
+## Networking
 
 **Documentation**
 - [MDN Web Docs — HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP) `[Free]` — Definitive reference for HTTP protocol, headers, status codes, methods
@@ -24,7 +24,7 @@ The standard recommendation: read primary documentation first. Official docs are
 
 ---
 
-## Phase 2 — Programming Fundamentals
+## Programming Fundamentals
 
 Choose resources for the language you've selected.
 
@@ -58,7 +58,7 @@ Choose resources for the language you've selected.
 
 ---
 
-## Phase 3 — Operating Systems
+## Operating Systems
 
 **Documentation**
 - [Linux man pages](https://man7.org/linux/man-pages/) `[Free]` — Primary reference for Linux system calls and commands
@@ -73,7 +73,7 @@ Choose resources for the language you've selected.
 
 ---
 
-## Phase 4 — Concurrency & Async Programming
+## Concurrency & Async Programming
 
 **Documentation**
 - Official documentation for your language's concurrency primitives (goroutines/channels for Go, asyncio for Python, threads for Java/Python, tokio for Rust)
@@ -89,7 +89,7 @@ Choose resources for the language you've selected.
 
 ---
 
-## Phase 5 — Relational Databases & SQL
+## Relational Databases & SQL
 
 **Documentation**
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/current/) `[Free]` — Best SQL database documentation. Thorough, well-organized.
@@ -106,10 +106,10 @@ Choose resources for the language you've selected.
 
 ---
 
-## Phase 6 — Git & Professional Tooling
+## Git & Professional Tooling
 
 **Documentation**
-- [Pro Git Book](https://git-scm.com/book/en/v2) `[Free]` — Official, comprehensive, well-written. Chapters 1–5 cover everything in this phase.
+- [Pro Git Book](https://git-scm.com/book/en/v2) `[Free]` — Official, comprehensive, well-written. Chapters 1–5 cover everything in this section.
 - [Conventional Commits](https://www.conventionalcommits.org/) `[Free]` — Standard for writing structured commit messages
 - [GitHub Actions Documentation](https://docs.github.com/en/actions) `[Free]` — Relevant during Docker & CI/CD, but useful to skim now
 
@@ -118,7 +118,7 @@ Choose resources for the language you've selected.
 
 ---
 
-## Phase 7 — Backend Architecture
+## Backend Architecture
 
 **Books**
 - *Clean Architecture* — Robert C. Martin `[Paid]` — Core concepts of separation of concerns and dependency direction. Skip the dogma, absorb the principles.
@@ -130,7 +130,7 @@ Choose resources for the language you've selected.
 
 ---
 
-## Phase 8 — API Design
+## API Design
 
 **Documentation**
 - [OpenAPI Specification](https://swagger.io/specification/) `[Free]` — The spec itself
@@ -144,7 +144,7 @@ Choose resources for the language you've selected.
 
 ---
 
-## Phase 9 — Security
+## Security
 
 **Documentation**
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/) `[Free]` — Read every entry. Understand the attack vector, not just the name.
@@ -159,7 +159,7 @@ Choose resources for the language you've selected.
 
 ---
 
-## Phase 10 — Observability
+## Observability
 
 **Documentation**
 - [OpenTelemetry Documentation](https://opentelemetry.io/docs/) `[Free]` — The emerging standard for observability instrumentation
@@ -174,7 +174,7 @@ Choose resources for the language you've selected.
 
 ---
 
-## Phase 11 — Testing
+## Testing
 
 **Documentation**
 - Testing framework docs for your language: pytest, Jest, JUnit, Go testing package, Rust test module — read the official docs
@@ -186,10 +186,10 @@ Choose resources for the language you've selected.
 
 ---
 
-## Phase 12 — Docker & CI/CD
+## Docker & CI/CD
 
 **Documentation**
-- [Docker Official Documentation](https://docs.docker.com/) `[Free]` — Guides section covers everything in this phase
+- [Docker Official Documentation](https://docs.docker.com/) `[Free]` — Guides section covers everything in this section
 - [Docker Compose Reference](https://docs.docker.com/compose/) `[Free]`
 - [GitHub Actions Documentation](https://docs.github.com/en/actions) `[Free]`
 - [GitLab CI/CD Documentation](https://docs.gitlab.com/ee/ci/) `[Free]`
@@ -202,7 +202,7 @@ Choose resources for the language you've selected.
 
 ---
 
-## Phase 13 — Scalability & Distributed Systems
+## Scalability & Distributed Systems
 
 **Books**
 - *Designing Data-Intensive Applications* — Martin Kleppmann `[Paid]` — If you haven't bought this yet, buy it now. Covers replication, partitioning, transactions, batch/stream processing.
@@ -220,7 +220,7 @@ Choose resources for the language you've selected.
 
 ---
 
-## Phase 14 — Cloud Fundamentals
+## Cloud Fundamentals
 
 **Documentation**
 - [AWS Documentation](https://docs.aws.amazon.com/) `[Free]` — EC2, RDS, S3, IAM, VPC. Start with the Getting Started guides for each service.
@@ -236,7 +236,7 @@ Choose resources for the language you've selected.
 
 ---
 
-## Phase 15 — Specialization
+## Specialization
 
 ### Fintech
 - [Stripe Documentation](https://stripe.com/docs) `[Free]` — Best payment API documentation in the industry. Informative even if you don't use Stripe.
@@ -286,4 +286,4 @@ These are the communities worth spending time in. Low noise, high signal.
 
 ---
 
-*See also: [FAQ.md](FAQ.md) — choosing your first language and managing pace. [PROGRESS.md](PROGRESS.md) — tracking your progress phase by phase.*
+*See also: [FAQ.md](FAQ.md) — choosing your first language and managing pace. [PROGRESS.md](PROGRESS.md) — tracking your progress section by section.*

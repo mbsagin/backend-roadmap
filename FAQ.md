@@ -21,9 +21,9 @@ Pick one and go deep. The language matters less than your mastery of it.
 
 ---
 
-## Can I skip phases?
+## Can I skip sections?
 
-Some phases have hard dependencies. Others are softer.
+Some sections have hard dependencies. Others are softer.
 
 **Hard dependencies (don't skip):**
 
@@ -38,20 +38,20 @@ Some phases have hard dependencies. Others are softer.
 - Git & Tooling — if you already use Git daily in a real workflow, move fast
 - Cloud — can be done in parallel with Docker & CI/CD or Scalability
 
-**Rule of thumb:** If you don't understand *why* a phase exists, don't skip it. The phases aren't arbitrary. Each one explains something the next one assumes you know.
+**Rule of thumb:** If you don't understand *why* a section exists, don't skip it. The order isn't arbitrary. Each section explains something the next one assumes you know.
 
 ---
 
-## What if I'm struggling with a phase?
+## What if I'm struggling with a section?
 
 Slow down. The roadmap timeline is a guide, not a deadline.
 
 Specific strategies:
 
 1. **Time-box confusion.** Spend 25 minutes stuck on a concept before searching. Most blockers dissolve with slightly different search terms or a different explanation.
-2. **Build something small.** Reading without building produces fragile knowledge. If Phase 4 (Concurrency) isn't clicking, write a small multi-threaded HTTP server. Concrete failures teach faster than abstract reading.
+2. **Build something small.** Reading without building produces fragile knowledge. If Concurrency isn't clicking, write a small multi-threaded HTTP server. Concrete failures teach faster than abstract reading.
 3. **Change the resource.** If the documentation isn't working, try a YouTube walkthrough. If a video isn't working, try a book. Same concept, different format.
-4. **Don't rush into Phase N+1 with a weak Phase N.** Weak foundations compound. A shaky understanding of transactions in Phase 5 will cause real pain in Phase 13.
+4. **Don't move forward with a weak foundation.** Weak fundamentals compound. A shaky understanding of transactions will cause real pain when you reach Scalability & Distributed Systems.
 5. **Post in communities.** r/learnprogramming, r/golang, r/rust, or the relevant Discord for your language. Frame your question with what you tried and what you expected.
 
 Struggling is normal. It means you're at the edge of your current model. That's the only place growth happens.
@@ -86,11 +86,11 @@ No. Complete the full roadmap first.
 
 **Why:**
 
-Specialization (Phase 15) builds on Phases 1–14. A fintech engineer who doesn't understand ACID transactions, or an infrastructure engineer who doesn't understand networking, is not actually specialized — they're just narrowly experienced with gaps.
+Specialization builds on everything before it. A fintech engineer who doesn't understand ACID transactions, or an infrastructure engineer who doesn't understand networking, is not actually specialized — they're just narrowly experienced with gaps.
 
 The right time to specialize is when you have a job offer in a specific domain, or when you're applying to roles in a domain you've already chosen.
 
-**Exception:** If you already have work experience in a specific domain (e-commerce, ML infrastructure, gaming), use that context to make earlier phases concrete. Build your database project in the domain you know. Specialization as *context* is fine. Specialization as *shortcut* is not.
+**Exception:** If you already have work experience in a specific domain (e-commerce, ML infrastructure, gaming), use that context to make earlier sections concrete. Build your database project in the domain you know. Specialization as *context* is fine. Specialization as *shortcut* is not.
 
 ---
 
@@ -98,24 +98,24 @@ The right time to specialize is when you have a job offer in a specific domain, 
 
 Calibrate, don't assume. Work experience in a domain doesn't guarantee depth in fundamentals.
 
-**Phase-by-phase skip criteria:**
+**Skip criteria by topic:**
 
-| Phase | Skip if you can... |
+| Topic | Skip if you can... |
 |---|---|
-| 1 — Networking | Explain TCP handshake, DNS resolution, HTTP status codes, and TLS off the top of your head |
-| 2 — Programming | Implement a hash map with collision handling, write a BFS/DFS, explain time complexity |
-| 3 — Operating Systems | Explain the process lifecycle, virtual memory, file descriptors, and blocking I/O |
-| 4 — Concurrency | Explain race conditions, write a thread-safe counter, describe async/await execution |
-| 5 — Databases | Design a normalized schema, write a JOIN with GROUP BY, explain B-tree indexes |
-| 6 — Git & Tooling | Resolve a merge conflict, explain rebase vs merge, set up a linter |
-| 7 — Architecture | Implement a layered service with DI, explain separation of concerns with examples |
-| 8 — API Design | Build a versioned REST API with proper error formats and pagination |
-| 9 — Security | Implement JWT auth, explain SQL injection with a real example, hash passwords correctly |
-| 10 — Observability | Set up structured logging with correlation IDs, describe distributed tracing |
-| 11 — Testing | Write unit, integration, and E2E tests; explain when to use each |
-| 12 — Docker & CI/CD | Write a Dockerfile, set up a GitHub Actions pipeline that tests and deploys |
-| 13 — Scalability | Explain consistent hashing, cache invalidation strategies, event-driven architecture |
-| 14 — Cloud | Deploy a containerized service to a managed cloud platform from scratch |
+| Networking | Explain TCP handshake, DNS resolution, HTTP status codes, and TLS off the top of your head |
+| Programming Fundamentals | Implement a hash map with collision handling, write a BFS/DFS, explain time complexity |
+| Operating Systems | Explain the process lifecycle, virtual memory, file descriptors, and blocking I/O |
+| Concurrency & Async | Explain race conditions, write a thread-safe counter, describe async/await execution |
+| Databases | Design a normalized schema, write a JOIN with GROUP BY, explain B-tree indexes |
+| Git & Tooling | Resolve a merge conflict, explain rebase vs merge, set up a linter |
+| Backend Architecture | Implement a layered service with DI, explain separation of concerns with examples |
+| API Design | Build a versioned REST API with proper error formats and pagination |
+| Security | Implement JWT auth, explain SQL injection with a real example, hash passwords correctly |
+| Observability | Set up structured logging with correlation IDs, describe distributed tracing |
+| Testing | Write unit, integration, and E2E tests; explain when to use each |
+| Docker & CI/CD | Write a Dockerfile, set up a GitHub Actions pipeline that tests and deploys |
+| Scalability & Distributed Systems | Explain consistent hashing, cache invalidation strategies, event-driven architecture |
+| Cloud Fundamentals | Deploy a containerized service to a managed cloud platform from scratch |
 
 Specialization is intentionally not in this table — you can't skip it because the whole point is choosing a track once you've completed everything else. There's nothing to skip; it's where you go deep.
 
@@ -158,7 +158,7 @@ No. But a STEM background (math, physics, engineering, any hard science) signifi
 
 **Practical reality:** Top companies (FAANG-tier) still filter heavily on CS degrees in initial screening, though this is declining. Startups and most mid-size companies care about what you can build and how you think.
 
-If you don't have a degree, your portfolio of real, deployed projects is your credential. Phase projects (database layer, REST API, containerized service) done well, documented clearly, and pushed to GitHub matter more than a diploma at most companies you'd actually want to work for.
+If you don't have a degree, your portfolio of real, deployed projects is your credential. The projects in this roadmap (database layer, REST API, containerized service) done well, documented clearly, and pushed to GitHub matter more than a diploma at most companies you'd actually want to work for.
 
 ---
 
@@ -175,7 +175,7 @@ Yes, but it takes longer and requires discipline.
 - Morning sessions before work (fewer interruptions, higher focus)
 - Fixed weekly schedule rather than "whenever I have time"
 - Longer focused sessions on weekends rather than fragmented daily bits
-- One phase at a time; don't split attention across three phases simultaneously
+- One section at a time; don't split attention across three topics simultaneously
 
 **What doesn't work:**
 - Watching tutorials during lunch — insufficient depth and retention

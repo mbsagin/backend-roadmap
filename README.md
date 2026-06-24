@@ -1,7 +1,6 @@
 # Backend Developer Roadmap
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![Phases](https://img.shields.io/badge/Phases-15-green.svg)
 ![Timeline](https://img.shields.io/badge/Timeline-12--18%20months-orange.svg)
 
 Complete, practical roadmap for STEM graduates to become production-ready backend engineers.
@@ -12,13 +11,13 @@ Complete, practical roadmap for STEM graduates to become production-ready backen
 
 ## Quick Start
 
-**First time here?** The [live roadmap](https://mbsagin.github.io/backend-roadmap/) is an interactive version of this repository. Each of the 15 phases includes the concepts to learn, code examples, project ideas, and learning resources — all in one page.
+**First time here?** The [live roadmap](https://mbsagin.github.io/backend-roadmap/) is an interactive version of this repository. Each section covers the concepts to learn, code examples, project ideas, and learning resources — all in one page.
 
 **Three steps to get started:**
 
 1. Open the [interactive roadmap](https://mbsagin.github.io/backend-roadmap/) in your browser
 2. Read the intro section — understand the timeline before you commit
-3. Start with **Phase 1: Networking** (1–2 weeks)
+3. Start with **Networking** (first section, 1–2 weeks)
 
 Or clone and open locally:
 
@@ -38,7 +37,7 @@ open index.html   # macOS
 Do you have programming basics?
 (variables, loops, functions in any language)
          │
-        Yes ──────────────────────────────────► Start at Phase 1: Networking
+        Yes ──────────────────────────────────► Start at Networking (first section)
          │
         No
          │
@@ -46,18 +45,18 @@ Do you have programming basics?
   Learn a language first.
   Recommended: Python.
   Resource: docs.python.org/3/tutorial
-  Then return here and start at Phase 1.
+  Then return here and start from Networking.
 
 ─────────────────────────────────────────────────────────────────
 
 Do you already work professionally in backend engineering?
          │
         Yes ──► Use the skip criteria in FAQ.md to identify gaps.
-         │       Complete only the phases where gaps exist.
+         │       Complete only the sections where gaps exist.
         No
          │
          ▼
-  Work sequentially. Phase N builds on Phase N-1.
+  Work sequentially. Each section builds on the previous one.
   The order is not arbitrary.
 
 ─────────────────────────────────────────────────────────────────
@@ -78,25 +77,25 @@ Not sure which language to pick?
 
 ---
 
-## What This Is
+## What This Covers
 
-15 phases covering everything from networking fundamentals to production mastery:
+Everything from networking fundamentals to production mastery:
 
-1. **Networking** — TCP/IP, DNS, HTTP, sockets (1–2 weeks)
-2. **Programming Fundamentals** — Language basics, data structures, algorithms (8–10 weeks)
-3. **Operating Systems** — Processes, threads, memory, I/O (2–3 weeks)
-4. **Concurrency & Async** — Threads, locks, async/await (2–3 weeks)
-5. **Relational Databases** — Schema design, SQL, indexing, transactions (6–8 weeks)
-6. **Git & Tooling** — Version control, linters, debuggers, formatters (2–3 weeks)
-7. **Backend Architecture** — Services, layers, design patterns (3–4 weeks)
-8. **API Design** — REST principles, HTTP contracts, intro to gRPC (4–5 weeks)
-9. **Security** — Authentication, authorization, hashing, vulnerabilities (3–4 weeks)
-10. **Observability** — Logging, metrics, distributed tracing, alerting (3–4 weeks)
-11. **Testing** — Unit, integration, E2E, test strategies (4–5 weeks)
-12. **Docker + CI/CD** — Containerization, automated deployment, pipelines (4–5 weeks)
-13. **Scalability & Distributed Systems** — Load balancing, caching, replication, message queues (6–8 weeks)
-14. **Cloud Fundamentals** — AWS/GCP/Azure basics, managed services (3–4 weeks)
-15. **Specialization** — Deep dive into your domain (4–6 weeks)
+- **Networking** — TCP/IP, DNS, HTTP, sockets (1–2 weeks)
+- **Programming Fundamentals** — Language basics, data structures, algorithms (8–10 weeks)
+- **Operating Systems** — Processes, threads, memory, I/O (2–3 weeks)
+- **Concurrency & Async** — Threads, locks, async/await (2–3 weeks)
+- **Relational Databases** — Schema design, SQL, indexing, transactions (6–8 weeks)
+- **Git & Tooling** — Version control, linters, debuggers, formatters (2–3 weeks)
+- **Backend Architecture** — Services, layers, design patterns (3–4 weeks)
+- **API Design** — REST principles, HTTP contracts, intro to gRPC (4–5 weeks)
+- **Security** — Authentication, authorization, hashing, vulnerabilities (3–4 weeks)
+- **Observability** — Logging, metrics, distributed tracing, alerting (3–4 weeks)
+- **Testing** — Unit, integration, E2E, test strategies (4–5 weeks)
+- **Docker + CI/CD** — Containerization, automated deployment, pipelines (4–5 weeks)
+- **Scalability & Distributed Systems** — Load balancing, caching, replication, message queues (6–8 weeks)
+- **Cloud Fundamentals** — AWS/GCP/Azure basics, managed services (3–4 weeks)
+- **Specialization** — Deep dive into your domain (4–6 weeks)
 
 **Total: 12–18 months at consistent 2–4 hours/day.**
 
@@ -118,7 +117,7 @@ Why the gap? Learning the curriculum is months. *Becoming* mid-level is years of
 
 - **Principles over syntax** — Understand *why* systems are built the way they are
 - **Language-agnostic** — Works for Python, Go, Rust, Java, C#, Node.js, or any backend language
-- **Progressive complexity** — Each phase builds on the last
+- **Progressive complexity** — Each section builds on the last
 - **Production reality** — Covers what's actually needed at real jobs
 - **No ceremony** — Straight content, no fluff
 
@@ -130,8 +129,8 @@ Why the gap? Learning the curriculum is months. *Becoming* mid-level is years of
 |---|---|
 | [`index.html`](index.html) | Interactive roadmap — open in browser |
 | [`FAQ.md`](FAQ.md) | Common questions: language choice, pacing, job readiness |
-| [`PROGRESS.md`](PROGRESS.md) | Phase-by-phase checklist — fork and track your progress |
-| [`RESOURCES.md`](RESOURCES.md) | Curated learning resources organized by phase |
+| [`PROGRESS.md`](PROGRESS.md) | Section-by-section checklist — fork and track your progress |
+| [`RESOURCES.md`](RESOURCES.md) | Curated learning resources organized by topic |
 | [`PROJECT_TEMPLATE.md`](PROJECT_TEMPLATE.md) | Template for scoping projects + worked example |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to contribute to this repository |
 | [`LICENSE`](LICENSE) | MIT |
@@ -158,15 +157,15 @@ Open the [live roadmap](https://mbsagin.github.io/backend-roadmap/) and work thr
 
 **Option 2: Track your progress**
 
-Fork this repository. Copy [`PROGRESS.md`](PROGRESS.md) and check off items as you complete each phase. Commit your progress to your fork.
+Fork this repository. Copy [`PROGRESS.md`](PROGRESS.md) and check off items as you complete each section. Commit your progress to your fork.
 
 ```bash
 # Fork on GitHub first, then:
 git clone https://github.com/YOUR_USERNAME/backend-roadmap.git
 cd backend-roadmap
-# Edit PROGRESS.md as you complete each phase
+# Edit PROGRESS.md as you complete each section
 git add PROGRESS.md
-git commit -m "Phase 1: Networking complete"
+git commit -m "Networking: complete"
 git push
 ```
 

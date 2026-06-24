@@ -17,15 +17,15 @@ Fill out every field before writing a line of code. If you can't fill a field, t
 ```
 # Project: [Name]
 
-## Phase
-[Which roadmap phase(s) this project covers]
+## Roadmap Section
+[Which section(s) of the roadmap this project covers]
 
 ## Objective
 [One paragraph. What does this project exist to do? What problem does it solve?]
 
 ## Prerequisites
 [What must you already understand before starting this?
-List phase concepts, not just phase numbers.]
+List the specific concepts required, not just section names.]
 
 ## Functional Requirements
 [What must the system do? Be specific.
@@ -67,8 +67,8 @@ Each criterion should be objectively verifiable — not "it works" but "it retur
 - [ ]
 
 ## Difficulty Level
-[ ] Beginner — applies concepts from one phase directly
-[ ] Intermediate — combines multiple phases, requires design decisions
+[ ] Beginner — applies concepts from one section directly
+[ ] Intermediate — combines multiple sections, requires design decisions
 [ ] Advanced — requires trade-off analysis, non-obvious solutions
 
 ## Estimated Time
@@ -89,8 +89,8 @@ This is the Databases project from the roadmap. Completed example using the temp
 
 # Project: E-commerce Data Layer
 
-## Phase
-Phase 5 — Relational Databases & SQL
+## Roadmap Section
+Relational Databases & SQL
 
 ## Objective
 Design and implement the relational database foundation for a simplified e-commerce platform. The goal is not to build a UI or an API — only the data layer. This forces full focus on schema design, normalization, transaction semantics, and query performance.
@@ -262,4 +262,4 @@ Expose the following as SQL functions or application-layer transactions:
 
 ---
 
-*See also: [PROGRESS.md](PROGRESS.md) for the full phase checklist, [RESOURCES.md](RESOURCES.md) for SQL learning resources.*
+*See also: [PROGRESS.md](PROGRESS.md) for the full checklist, [RESOURCES.md](RESOURCES.md) for SQL learning resources.*
