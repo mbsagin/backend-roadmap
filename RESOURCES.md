@@ -61,6 +61,13 @@ Choose resources for the language you've selected.
 - *C# in Depth, 4th ed.* — Jon Skeet `[Paid]` — The most thorough book on C#. Goes beyond syntax into how the language actually works.
 - *Effective C#, 3rd ed.* — Bill Wagner `[Paid]` — 50 specific ways to improve C# code. Practical and concise.
 
+**Node.js / TypeScript**
+- [Node.js Official Docs](https://nodejs.org/en/docs/) `[Free]` — API reference and guides. Start with the Getting Started section.
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) `[Free]` — Official handbook. Read it before writing production TypeScript.
+- [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) `[Free]` — Curated repository of Node.js production patterns. High signal.
+- [Fastify Documentation](https://fastify.dev/docs/latest/) `[Free]` — The production-grade Node.js web framework. Better defaults than Express.
+- *Node.js Design Patterns, 3rd ed.* — Casciaro & Mammino `[Paid]` — The most thorough book on Node.js architecture and async patterns.
+
 **Algorithms (language-agnostic)**
 - [The Algorithm Design Manual](https://www.algorist.com/) — Skiena `[Paid]` — Best book for building intuition
 - [LeetCode](https://leetcode.com/) `[Free/Paid]` — Practice problems. Focus on Easy/Medium. Don't grind before you have fundamentals.
